@@ -1,0 +1,64 @@
+# compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
+/build-webpack
+/web
+/crexi
+
+# dependencies
+/node_modules
+report.*.json
+.angular
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+migrations.json
+testem.log
+/typings
+tree.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# webpack plugin cache-loader
+.cache-loader
+
+#webpack stats
+stats.json
+
+#lint compiled js
+/lint/**/*.js
+
+# Tools
+tools/update-imports/tests/test-zone/**/*
+tools/update-imports/config.ts
+.jest-test-results.json
